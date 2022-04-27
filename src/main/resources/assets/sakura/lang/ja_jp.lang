@@ -1,4 +1,5 @@
 #Block
+tile.sakura.sakura_diamond_block.name=桜ダイヤモンドのブロック
 tile.sakura.kawara_block.name=瓦ブロック
 tile.sakura.kawara.name=瓦
 tile.sakura.tatami_tan.name=畳(日焼け)
@@ -32,6 +33,9 @@ tile.sakura.maple_sapling_green.name=緑色のカエデの苗木
 tile.sakura.sakuraleaves.name=桜の葉
 tile.sakura.sakura_sapling.name=桜の苗木
 tile.sakura.sakura_log.name=桜の原木
+tile.sakura.umeleaves.name=梅の葉
+tile.sakura.ume_sapling.name=梅の苗木
+tile.sakura.ume_log.name=梅の原木
 tile.sakura.campfire_idle.name=焚き火
 tile.sakura.campfire_lit.name=焚き火
 tile.sakura.campfire_pot_idle.name=焚き火鍋
@@ -63,6 +67,8 @@ tile.sakura.plank_maple.name=カエデの木材
 tile.sakura.plank_bamboo.name=竹の木材
 tile.sakura.barrel.name=樽
 tile.sakura.barrel_distillation.name=木樽蒸留器
+# FIXME: questionable translation
+tile.sakura.barrel_out.name=ストレージ樽
 tile.sakura.kitunebi.name=狐火
 tile.sakura.windbell.name=風鈴
 tile.sakura.bamboo_fence_sunburnt.name=竹柵(日焼け)
@@ -73,7 +79,7 @@ tile.sakura.soba_block.name=そば生地
 tile.sakura.udon_unfinished_block.name=うどん生地
 tile.sakura.ramen_block.name=ラーメン生地
 tile.sakura.taiko.name=太鼓
-tile.sakura.maple_spile.name=スパイル
+tile.sakura.maple_spile.name=カエデ用の差し管
 tile.sakura.slab_plank_bamboo.name=竹のハーフブロック
 tile.sakura.stairs_plank_bamboo.name=竹の階段
 tile.sakura.slab_plank_sakura.name=桜のハーフブロック
@@ -98,8 +104,83 @@ tile.sakura.obon.name=お盆
 tile.sakura.noren_white.name=のれん(白)
 tile.sakura.noren_pink.name=のれん(ピンク)
 tile.sakura.noren_blue.name=のれん(青)
+tile.sakura.mushroom_fallen_leaves.name=ムーシュルームが混ざった落ち葉
+tile.sakura.zabuton.name=座布団
+tile.sakura.straw_web.name=麦らわ帽子
+tile.sakura.white_lantern.name=ランタン(白)
+tile.sakura.red_lantern.name=ランタン(赤)
+tile.sakura.stone_lantern.name=石のランタン
+tile.sakura.cobblestone_lantern.name=丸石のランタン
+tile.sakura.mossy_stone_lantern.name=苔石のランタン
+
+# FIXME: isn't there better translation?
+tile.sakura.tempura_plate.name=盛られた天ぷら
+tile.sakura.sushi_plate.name=寿司下駄に盛られた寿司
+tile.sakura.teishoku_katsu.name=カツ定食
+tile.sakura.teishoku_burger.name=ハンバーガー定食
+tile.sakura.teishoku_tempura.name=天ぷら定食
+tile.sakura.teishoku_fried.name=揚げ定食
+tile.sakura.teishoku_tamagoyaki.name=卵焼き定食
+tile.sakura.teishoku_yakiniku.name=焼肉定食
+tile.sakura.teishoku_fish_raw.name=生魚定食
+tile.sakura.teishoku_fish_cooked.name=焼き魚定食
+tile.sakura.teishoku_fish_salt.name=塩振り焼き魚定食
 
 #Item
+item.sakura.machined_fish.name=Machined Fish
+item.sakura.futon.name=布団
+item.sakura.silk.name=絹
+item.sakura.bento_box.name=弁当箱
+
+item.sakura.matsutake.name=松茸
+item.sakura.shimeji.name=しめじ
+item.sakura.edodes.name=Edodes
+item.sakura.roast_matsutake.name=Roasted Matsutake
+
+item.sakura.nimono_fish.name=Fish Nimono
+item.sakura.nimono_radish.name=Radish Nimono
+item.sakura.nimono_pumpkin.name=かぼちゃの煮付け
+
+item.sakura.okinoyaki.name=Okinoyaki
+item.sakura.dough_okinoyaki.name=Okinoyaki Dough
+item.sakura.okinoyaki_plus.name=Okinoyaki Plus
+item.sakura.okinoyaki_final.name=Okinoyaki Final
+
+item.sakura.bento_0.name=弁当
+item.sakura.bento_1.name=弁当
+item.sakura.bento_2.name=オムライス弁当
+item.sakura.bento_3.name=弁当
+
+item.sakura.bonito.name=カツオ
+item.sakura.machined_bonito.name=Machined Bonito
+item.sakura.boiled_bonito.name=Boiled Bonito
+item.sakura.smoked_bonito.name=燻製されたカツオ
+item.sakura.dried_bonito.name=Dried Bonito
+item.sakura.bonito_shaving.name=Shaved Bonito
+
+item.sakura.pound_cake_mocha.name=Mocha Pound Cake
+item.sakura.pudding_mocha.name=Mocha Pudding
+item.sakura.mocha_cookie.name=Mocha Cookie
+item.sakura.taiyaki_mocha.name=Mocha Taiyaki
+
+item.sakura.soup_miso.name=味噌汁
+item.sakura.yaki_pasta.name=焼きパスタ
+item.sakura.yaki_soba.name=焼きそば
+item.sakura.chikuzenni.name=筑前煮
+item.sakura.cheese_bean_bake.name=Cheesy Baked Bean
+item.sakura.dorayaki.name=どら焼き
+item.sakura.chawanmushi.name=茶碗蒸し
+item.sakura.buckwheat_bread.name=そば粉パン
+item.sakura.vinegar.name=ビネガー
+item.sakura.mayo.name=マヨネーズ
+item.sakura.worcester_sauce.name=ウスターソース
+
+item.sakura.taro.name=タロイモ
+item.sakura.taro_baked.name=Cooked Taro
+item.sakura.imogara.name=Imo-gara
+item.sakura.dried_imogara.name=Dried Imo-gara
+item.sakura.imogaranawa_piece.name=Imo-gara-nawa Piece
+item.sakura.imogaranawa.name=Imo-gara-nawa
 item.sakura.grape.name=ブドウ
 item.sakura.raw_taiyaki.name=たい焼き生地
 item.sakura.taiyaki.name=たい焼き
@@ -109,12 +190,14 @@ item.sakura.red_bean_paste.name=あんこ
 item.sakura.bun.name=バンズ
 item.sakura.cheese.name=チーズ
 item.sakura.katsu.name=トンカツ
+item.sakura.dried_rice.name=米
 item.sakura.rice_cooked.name=ご飯
 item.sakura.rice_bamboo.name=タケノコご飯
 item.sakura.rice_fish.name=海鮮丼
 item.sakura.rice_beef.name=牛丼
 item.sakura.rice_pork.name=豚丼
 item.sakura.rice_mushroom.name=きのこご飯
+item.sakura.rice_matsutake.name=松茸ご飯
 item.sakura.rice_egg.name=卵かけご飯
 item.sakura.rice_beef_egg.name=月見牛丼
 item.sakura.rice_pork_egg.name=月見豚丼
@@ -148,6 +231,7 @@ item.sakura.onigiri.name=おにぎり
 item.sakura.onigiri_bamboo.name=タケノコご飯おにぎり
 item.sakura.onigiri_fish.name=魚おにぎり
 item.sakura.onigiri_mushroom.name=きのこご飯おにぎり
+item.sakura.onigiri_matsutake.name=松茸おにぎり
 item.sakura.onigiri_seaweed.name=のり巻きおにぎり
 item.sakura.onigiri_tempura.name=天ぷらおにぎり
 item.sakura.burger_raw.name=ハンバーグ生地
@@ -237,9 +321,11 @@ item.sakura.lumber_maple.name=カエデの木材のカケラ
 item.sakura.black_pepper.name=ブラックペッパー
 item.sakura.white_pepper.name=ホワイトペッパー
 item.sakura.miso.name=味噌
+item.sakura.miso_ball.name=味噌の塊
 item.sakura.breadcrumbs.name=パンくず
 item.sakura.chestnut.name=栗
 item.sakura.bamboo_door.name=竹のドア
+item.sakura.seaweed_raw.name=野生の海苔
 item.sakura.seaweed.name=海苔
 item.sakura.rice_seeds.name=種籾
 item.sakura.tomato.name=トマト
@@ -265,14 +351,52 @@ item.sakura.kodachi.name=小太刀
 item.sakura.sakura_kodachi.name=桜小太刀
 item.sakura.shinai.name=竹刀
 item.sakura.tachi.name=太刀
-item.sakura.knife_noodle.name=刀削麺切
+item.sakura.knife_noodle.name=麺切り包丁
+item.sakura.sakura_knife_noodle.name=麺切り包丁・桜
+item.sakura.knife_fish.name=出刃包丁
+item.sakura.sakura_knife_fish.name=出刃包丁・桜
+item.sakura.sakura_pickaxe.name=桜ダイヤモンドのピッケル
+item.sakura.sakura_shovel.name=桜ダイヤモンドのショベル
+item.sakura.sakura_axe.name=桜ダイヤモンドの斧
+item.sakura.sakura_hoe.name=桜ダイヤモンドの桑
 item.sakura.samurai_shoes.name=臑当て
 item.sakura.samurai_pants.name=草摺り
 item.sakura.samurai_chest.name=胴
 item.sakura.samurai_helmet.name=兜
+item.sakura.soldier_shoes.name=Soldier Shoes
+item.sakura.soldier_pants.name=Soldier Pants
+item.sakura.soldier_chest.name=Soldier Chestplate
+item.sakura.soldier_helmet.name=Soldier Helmet
 item.sakura.broom.name=ほうき
 item.sakura.haori.name=羽織
+item.sakura.haori_base.name=Brown Haori
+item.sakura.haori_1.name=Black Haori
+item.sakura.haori_2.name=Cyan Haori
+item.sakura.haori_3.name=White Haori
+item.sakura.haori_4.name=Green Haori
 item.sakura.kimono.name=着物
+item.sakura.kimono_base.name=Brown Kimono
+item.sakura.kimono_1.name=Black Kimono
+item.sakura.kimono_2.name=Green Kimono
+item.sakura.kimono_3.name=Cyan Kimono
+item.sakura.kimono_4.name=Purple Kimono
+item.sakura.kimono_5.name=Sakura Kimono
+item.sakura.kimono_6.name=White Kimono
+
+item.sakura.kimono_ene.name=Sponsor ENE -Snow Sakura-
+
+item.sakura.yukata_0.name=Red Yukata
+item.sakura.yukata_1.name=Blue Yukata
+item.sakura.yukata_2.name=Magenta Yukata
+item.sakura.yukata_3.name=Lime Yukata
+item.sakura.yukata_4.name=Yellow Yukata
+item.sakura.kimono_miko.name=Miko Kimono
+sakura.armor_samurai.texture.name=Armor Color
+item.sakura.soldier_armor.name=Gray
+item.sakura.soldier_armor_1.name=Black
+item.sakura.samurai_armor.name=Red
+item.sakura.samurai_armor_1.name=Green
+item.sakura.samurai_armor_2.name=Black
 item.sakura.coin.name=桜の小判
 item.sakura.bamboo_sunburnt.name=竹(日焼け)
 item.sakura.stone_hammer.name=石製ハンマー
@@ -317,6 +441,11 @@ item.sakura.rice_tea_leaves.name=玄米茶の茶葉
 item.sakura.mint_tea_leaves.name=ミントティーの茶葉
 item.sakura.mocha.name=モカ
 item.sakura.brown_rice.name=玄米
+item.sakura.brown_rice_cooked.name=玄米ご飯
+item.sakura.dried_brown_rice.name=Dried Brown Rice
+item.sakura.fried_brown_rice.name=Fried Brown Rice
+item.sakura.ume.name=梅
+item.sakura.umeboshi.name=梅干し
 item.sakura.hop.name=麦
 item.sakura.yeast.name=酵母
 item.sakura.alkaline.name=かんすい
@@ -352,6 +481,16 @@ item.sakura.gin_bottle.name=ジンボトル
 item.sakura.tequila_bottle.name=テキーラボトル
 item.sakura.liqueur_bottle.name=リキュールのボトル
 item.sakura.cocoa_liqueur_bottle.name=ココアリキュールのボトル
+
+item.sakura.zosui.name=Zosui
+item.sakura.zosui_zuiki.name=Zuiki Zosui
+item.sakura.imotaki.name=Imotaki
+item.sakura.noppei_jiru.name=Noppei Jiru
+
+item.sakura.fish_bake_salt.name=Salted Grilled fish
+
+item.sakura.hyorogan.name=兵糧丸
+item.sakura.suikatsugan.name=水渇丸
 
 item.sakura.cup.name=コップ
 item.sakura.black_tea.name=紅茶
@@ -473,6 +612,7 @@ jei.sakura.category.mortar=石臼
 jei.sakura.category.barrel=樽
 jei.sakura.category.distillation=木樽蒸留器
 jei.sakura.category.liquid_item=液体
+jei.sakura.category.straw_web=天日干し
 
 #Entities
 entity.sakura.Deer.name=シカ
@@ -481,11 +621,11 @@ entity.Villager.wa_farmer=農家
 entity.Villager.wa_fisher=釣り人
 entity.Villager.wa_trader=商人
 entity.Villager.wine_trader=酒屋
+entity.Villager.wa_silk=呉服屋
 
 guide.sakura_guide.landing_text=この世界にはたくさんの植物がある。この本では、主に収穫者必見のものを紹介していく。
 
 itemGroup.sakura_tabs=Sakura
-
 
 #Config
 sakura.config.vanilla_weight=バニラの生成率
@@ -500,6 +640,11 @@ sakura.config.harder_iron_recipe=鉄インゴットへModの和風ハードコ�
 #Tooltip is set by Sakura Mod itself.
 sakura.config.hotspring_weight=温泉の生成率
 #Tooltip is set by Sakura Mod itself.
+sakura.config.every_where_sakura_diamond=Sakura Diamond Generated Everywhere
+#Tooltip is set by Sakura Mod itself.
+
+sakura.tooltip.campfire.fire_remain=燃焼時間: 残り %1$s ティック
+sakura.tooltip.campfire.item_in=キャンプファイヤのアイテム: %1$s
 
 #Warning
 sakura.warning.harder_iron_recipe_enabled=日本の製鉄技術のようなハードコアレシピが有効になります。鍛造をお楽しみください！
