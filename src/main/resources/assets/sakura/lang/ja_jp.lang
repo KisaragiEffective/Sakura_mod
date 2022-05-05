@@ -601,13 +601,13 @@ sakura.katana.sheath.not_empty_hand=鞘から刀を引く場合は、片手に�
 
 #Container
 container.sakura.stonemortar=石臼
-container.sakura.campfirepot=焚き火鍋
+container.sakura.campfirepot=料理鍋
 
 barrel.contains.fluid=この樽には %1$s の液体が入っています。
 barrel.contains.nonfluid=この樽は空です。
 
 #JEI Support
-jei.sakura.category.cooking_pot=焚き火鍋
+jei.sakura.category.cooking_pot=料理鍋
 jei.sakura.category.mortar=石臼
 jei.sakura.category.barrel=樽
 jei.sakura.category.distillation=木樽蒸留器
